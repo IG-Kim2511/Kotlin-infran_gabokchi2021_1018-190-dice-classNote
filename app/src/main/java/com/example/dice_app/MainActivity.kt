@@ -50,15 +50,14 @@ class MainActivity : AppCompatActivity() {
 //            diceImage2.setImageResource(R.drawable.dice_2)
 
 
-//       🍀버튼 클릭하면, 1~6 랜덤넘버가, val변수에 들어감
-            val number1 =  Random.nextInt(1,6)
-            val number2 =  Random.nextInt(1,6)
-
-
 //🍄
+//버튼 클릭하면, 1~6 랜덤넘버가, val변수에 들어감
 //diceImage1의...
 //random 넘버가 1이면 , src...dice_1
 //random 넘버가 2이면 , src...dice_2
+
+            val number1 =  Random.nextInt(1,6)
+            val number2 =  Random.nextInt(1,6)
 
 //            diceImage1
             if (number1 == 1){
